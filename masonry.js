@@ -95,7 +95,7 @@
               (e.prototype.calculateColumns = function (e, t, s) {
                 var l = t + s,
                   r = e.offsetWidth + s;
-                  minColumns = 2;
+                  var minColumns = 2;
                   return Math.floor(r / l) < minColumns ? minColumns : Math.floor(r / l) || 1;
               }),
               (e.prototype.handleResponsive = function () {
